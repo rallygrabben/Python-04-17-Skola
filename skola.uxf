@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>50</y><w>130</w><h>90</h></coordinates><panel_attributes>main()
+--
+skola:ElevHandler
+looping:boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>180</y><w>260</w><h>180</h></coordinates><panel_attributes>ElevHandler
+--
+self.elevlista:list
+self.filnamn:str
+--
+__init__()
+add_elev(namn:str, utbildning:str, tel:str)
+del_elev(tel:str)
+print_elevlista()
+print_meny()
+spara_avsluta()
+save_to_file()
+read_from_file()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>380</y><w>250</w><h>110</h></coordinates><panel_attributes>Elev
+--
+self.namn:str
+self.utbildning:str
+self.tel:str
+--
+__init__(namn:str, utbildningar:str, tel:str)
+get_elev():str</panel_attributes><additional_attributes></additional_attributes></element></diagram>
