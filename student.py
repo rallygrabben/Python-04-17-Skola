@@ -7,5 +7,5 @@ class student:
         self.phone = phone
 
     def get_student(self):
-        answer = f"\t{self.name}\n\t\t{self.education}\n\t\t{self.phone}"
+        answer = f"{self.name}\n\t    - Education: {self.education}\n\t    - Phone  Nr: {self.phone}\n\n"
         return answer

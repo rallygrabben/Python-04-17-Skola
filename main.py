@@ -7,8 +7,8 @@ school = studentHandler.PrintMeny()
 
 while looping == True:
 
-    val = school.testprint()
+    mainMenuVal = school.testprint()
 
     
-    if val == "4":
+    if mainMenuVal == "4":
         break
